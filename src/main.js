@@ -52,17 +52,17 @@ let app = new Vue({
 
     secondSection:{
       title:'It doesn\'t to be like that. Teambit is a modern solution that teammates love.',
-      card:[
+      cards:[
         {
-          img:'',
+          img:'dist/img/lightweight.png',
           text:'it is lightweight fun and interconnected'
         },
         {
-          img:'',
+          img:'dist/img/feedbacksuggestions.png',
           text:'It encourage regular feedbacks with contextual requests'
         },
         {
-          img:'',
+          img:'dist/img/safe.png',
           text:'It care safe envirnoment for dialog',
         },
       ],

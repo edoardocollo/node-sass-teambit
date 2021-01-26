@@ -64,6 +64,19 @@
     </ul>
   </div>
 
+  <div id="whiteSection">
+    <div class="whiteCard" v-for="card in whiteSection">
+      <div class="img_wrap">
+        <img :src="card.img[1]" alt="">
+      </div>
+      <div class="content_wrap">
+        <h2>{{card.title}}</h2>
+        <p>{{card.text}}</p>
+        <a href="#">{{card.linkText}}</a>
+        <img :src="card.img[0]" alt="">
+      </div>
+    </div>
+  </div>
 
   </div>
 

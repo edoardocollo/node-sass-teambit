@@ -56,7 +56,28 @@ var app = new Vue({
       }],
       img: '',
       text: 'Here is how it works'
-    }
+    },
+    whiteSection: [{
+      title: 'Feedback to help teammates improve',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus numquam praesentium temporibus hic corporis totam nesciunt a, veniam quas, distinctio saepe nobis odit quis laboriosam provident voluptate reprehenderit illum consectetur?',
+      linkText: 'Learn more',
+      img: ['dist/img/communication.jpg', 'dist/img/employee-feedback.jpg']
+    }, {
+      title: 'Surveys to help the team be better',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus numquam praesentium temporibus hic corporis totam nesciunt a, veniam quas, distinctio saepe nobis odit quis laboriosam provident voluptate reprehenderit illum consectetur?',
+      linkText: 'Learn more',
+      img: ['dist/img/insights.jpg', 'dist/img/employee-survey.jpg']
+    }, {
+      title: 'Reviews to help teammates get a fair envaluation',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus numquam praesentium temporibus hic corporis totam nesciunt a, veniam quas, distinctio saepe nobis odit quis laboriosam provident voluptate reprehenderit illum consectetur?',
+      linkText: 'Learn more',
+      img: ['dist/img/review.jpg', 'dist/img/performance-review.jpg']
+    }, {
+      title: 'Prise to help teammates feel valued',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus numquam praesentium temporibus hic corporis totam nesciunt a, veniam quas, distinctio saepe nobis odit quis laboriosam provident voluptate reprehenderit illum consectetur?',
+      linkText: 'Learn more',
+      img: ['dist/img/recognition.jpg', 'dist/img/employee-recognition.jpg']
+    }]
   }
 });
 

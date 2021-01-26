@@ -26,7 +26,7 @@ var app = new Vue({
     },
     // FIRST SECTION DATA
     /////////////////
-    firstSection: {
+    orangeSection: [{
       title: 'Traditional people processes lead to diseingagement and turnover.',
       cards: [{
         img: 'dist/img/hardcore.png',
@@ -39,8 +39,7 @@ var app = new Vue({
         text: 'They dont\'t make it safe speak up'
       }],
       img: 'dist/img/before.png'
-    },
-    secondSection: {
+    }, {
       title: 'It doesn\'t to be like that. Teambit is a modern solution that teammates love.',
       cards: [{
         img: 'dist/img/lightweight.png',
@@ -52,9 +51,9 @@ var app = new Vue({
         img: 'dist/img/safe.png',
         text: 'It care safe envirnoment for dialog'
       }],
-      img: '',
+      img: 'dist/img/after.png',
       text: 'Here is how it works'
-    },
+    }],
     whiteSection: [{
       title: 'Feedback to help teammates improve',
       text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus numquam praesentium temporibus hic corporis totam nesciunt a, veniam quas, distinctio saepe nobis odit quis laboriosam provident voluptate reprehenderit illum consectetur?',

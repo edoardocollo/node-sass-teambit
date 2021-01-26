@@ -28,44 +28,46 @@ let app = new Vue({
     },
     // FIRST SECTION DATA
     /////////////////
+    orangeSection:[
 
-    firstSection:{
-      title:'Traditional people processes lead to diseingagement and turnover.',
-      cards:[
-        {
-          img:'dist/img/hardcore.png',
-          text:'They are hardcore, formal and disconnected'
-        },
-        {
-          img:'dist/img/nofeedback.png',
-          text:'They don\'t encourage regular feedbacks'
-        },
-        {
-          img:'dist/img/notsafe.png',
-          text:'They dont\'t make it safe speak up',
-        },
-      ],
-      img:'dist/img/before.png',
-    },
-    secondSection:{
-      title:'It doesn\'t to be like that. Teambit is a modern solution that teammates love.',
-      cards:[
-        {
-          img:'dist/img/lightweight.png',
-          text:'it is lightweight fun and interconnected'
-        },
-        {
-          img:'dist/img/feedbacksuggestions.png',
-          text:'It encourage regular feedbacks with contextual requests'
-        },
-        {
-          img:'dist/img/safe.png',
-          text:'It care safe envirnoment for dialog',
-        },
-      ],
-      img:'',
-      text:'Here is how it works',
-    },
+      {
+        title:'Traditional people processes lead to diseingagement and turnover.',
+        cards:[
+          {
+            img:'dist/img/hardcore.png',
+            text:'They are hardcore, formal and disconnected'
+          },
+          {
+            img:'dist/img/nofeedback.png',
+            text:'They don\'t encourage regular feedbacks'
+          },
+          {
+            img:'dist/img/notsafe.png',
+            text:'They dont\'t make it safe speak up',
+          },
+        ],
+        img:'dist/img/before.png',
+      },
+      {
+        title:'It doesn\'t to be like that. Teambit is a modern solution that teammates love.',
+        cards:[
+          {
+            img:'dist/img/lightweight.png',
+            text:'it is lightweight fun and interconnected'
+          },
+          {
+            img:'dist/img/feedbacksuggestions.png',
+            text:'It encourage regular feedbacks with contextual requests'
+          },
+          {
+            img:'dist/img/safe.png',
+            text:'It care safe envirnoment for dialog',
+          }
+        ],
+        img:'dist/img/after.png',
+        text:'Here is how it works',
+      },
+    ],
     whiteSection:[
       {
         title:'Feedback to help teammates improve',

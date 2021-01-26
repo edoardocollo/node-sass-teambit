@@ -10,8 +10,8 @@ let app = new Vue({
         'pricing',
         'blog',
         'signe in',
-        'signe up',
       ],
+      googleLink: 'Sign up',
     },
     // JUMBOTRON DATA
     /////////////////

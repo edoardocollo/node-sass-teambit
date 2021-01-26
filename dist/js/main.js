@@ -14,7 +14,8 @@ var app = new Vue({
     /////////////////
     header: {
       logo: 'dist/img/logo.svg',
-      links: ['solutions', 'pricing', 'blog', 'signe in', 'signe up']
+      links: ['solutions', 'pricing', 'blog', 'signe in'],
+      googleLink: 'Sign up'
     },
     // JUMBOTRON DATA
     /////////////////

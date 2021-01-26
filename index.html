@@ -22,6 +22,7 @@
           <li v-for="link in header.links">
             {{link}}
           </li>
+          <li>{{header.googleLink}}</li>
         </ul>
       </nav>
     </header>
@@ -55,27 +56,6 @@
       <img :src="section.img" alt="">
     </div>
   </div>
-  <!-- <div id="firstSection">
-    <h2>{{firstSection.title}}</h2>
-    <ul>
-      <li v-for="card in firstSection.cards">
-        <img :src="card.img" alt="">
-        <p>{{card.text}}</p>
-      </li>
-      <img :src="firstSection.img" alt="">
-    </ul>
-  </div>
-
-  <div id="secondSection">
-    <h2>{{secondSection.title}}</h2>
-    <ul>
-      <li v-for="card in secondSection.cards">
-        <img :src="card.img" alt="">
-        <p>{{card.text}}</p>
-      </li>
-      <img :src="secondSection.img" alt="">
-    </ul>
-  </div> -->
 
   <div id="whiteSection">
     <div class="whiteCard" v-for="card in whiteSection">

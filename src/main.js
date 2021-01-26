@@ -47,9 +47,6 @@ let app = new Vue({
       ],
       img:'dist/img/before.png',
     },
-    // SECOND SECTION DATA
-    /////////////////
-
     secondSection:{
       title:'It doesn\'t to be like that. Teambit is a modern solution that teammates love.',
       cards:[
@@ -95,6 +92,45 @@ let app = new Vue({
         img:['dist/img/recognition.jpg','dist/img/employee-recognition.jpg'],
       },
 
-    ]
+    ],
+    feedbackSection:{
+      title:'See Teambit for yourself. Get started in seconds',
+      text:'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      img:'',
+      links:[
+        'sign up with google',
+        'sign up with slack',
+        'or use your email address',
+      ],
+    },
+    footer:{
+      left:{
+        logo:'',
+        linkText:'Teambit',
+        text:'helps team create high performing cultures by making feedback a daily habit.',
+      },
+      right:[
+        {
+          title:'product',
+          links:['lorem','lorem','lorem','lorem','lorem','lorem','lorem','lorem','lorem',],
+        },
+        {
+          title:'about',
+          links:['lorem','lorem','lorem','lorem','lorem','lorem','lorem','lorem','lorem',],
+        },
+        {
+          title:'connect',
+          links:['lorem','lorem','lorem','lorem','lorem','lorem','lorem','lorem','lorem',],
+        },
+        {
+          title:'lobs',
+          links:['lorem','lorem','lorem','lorem','lorem','lorem','lorem','lorem','lorem',],
+        },
+        {
+          title:'from the blog',
+          links:['lorem','lorem','lorem','lorem','lorem','lorem','lorem','lorem','lorem',],
+        },
+      ],
+    },
   },
 });

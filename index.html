@@ -78,6 +78,31 @@
     </div>
   </div>
 
+  <div id="feedback_section">
+    <h2>{{feedbackSection.title}}</h2>
+    <p>{{feedbackSection.text}}</p>
+    <a href="#" v-for="link in feedbackSection.links">{{link}}</a>
+  </div>
+
+  <footer>
+    <div class="footer_left">
+      <img :src="footer.left.logo" alt="">
+      <p>
+        <a href="#">{{footer.left.linkText}}</a>
+        {{footer.left.text}}
+      </p>
+    </div>
+    <div class="footer_right">
+      <div class="column" v-for="list in footer.right">
+        <h3>{{list.title}}</h3>
+        <ul>
+          <li v-for="link in list.links">{{link}}</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
   </div>
 
 

@@ -24,27 +24,28 @@ let app = new Vue({
         'sign up with slack',
         'or use your email address',
       ],
+      img:'dist/img/illustration-main.jpg',
     },
     // FIRST SECTION DATA
     /////////////////
 
     firstSection:{
       title:'Traditional people processes lead to diseingagement and turnover.',
-      card:[
+      cards:[
         {
-          img:'',
+          img:'dist/img/hardcore.png',
           text:'They are hardcore, formal and disconnected'
         },
         {
-          img:'',
+          img:'dist/img/nofeedback.png',
           text:'They don\'t encourage regular feedbacks'
         },
         {
-          img:'',
+          img:'dist/img/notsafe.png',
           text:'They dont\'t make it safe speak up',
         },
       ],
-      img:'',
+      img:'dist/img/before.png',
     },
     // SECOND SECTION DATA
     /////////////////

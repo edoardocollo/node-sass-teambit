@@ -29,15 +29,29 @@
 
 
     <div id="jumbotron">
-    <div class="left">
-      <h1>{{jumbotron.title}}</h1>
-      <p>{{jumbotron.text}}</p>
-      <a href="">{{jumbotron.links[1]}}</a>
-      <a href="">{{jumbotron.links[2]}}</a>
-      <a href="">{{jumbotron.links[3]}}</a>
-    </div>
+      <div class="left">
+        <h1>{{jumbotron.title}}</h1>
+        <p>{{jumbotron.text}}</p>
+        <a href="">{{jumbotron.links[1]}}</a>
+        <a href="">{{jumbotron.links[2]}}</a>
+        <a href="">{{jumbotron.links[3]}}</a>
+      </div>
+      <div class="right">
+        <img :src="jumbotron.img" alt="">
+      </div>
     </div>
 
+
+  <div id="firstSection">
+    <h2>{{firstSection.title}}</h2>
+    <ul>
+      <li v-for="card in firstSection.cards">
+        <img :src="card.img" alt="">
+        <p>{{card.text}}</p>
+      </li>
+      <img :src="firstSection.img" alt="">
+    </ul>
+  </div>
 
 
 

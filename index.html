@@ -15,8 +15,32 @@
 
 
 
+    <header>
+      <nav>
+        <img :src="header.logo" alt="">
+        <ul>
+          <li v-for="link in header.links">
+            {{link}}
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    
+
+
+    <div id="jumbotron">
+    <div class="left">
+      <h1>{{jumbotron.title}}</h1>
+      <p>{{jumbotron.text}}</p>
+      <a href="">{{jumbotron.links[1]}}</a>
+      <a href="">{{jumbotron.links[2]}}</a>
+      <a href="">{{jumbotron.links[3]}}</a>
+    </div>
+    </div>
+
+
+
+
   </div>
 
 

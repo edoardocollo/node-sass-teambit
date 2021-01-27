@@ -19,15 +19,22 @@
 
     <header>
       <nav>
-        <img :src="header.logo" alt="">
+        <img :src="header.logo" alt="" >
         <ul>
           <li v-for="link in header.links">
             {{link}}
           </li>
           <li> <img :src="googleLogo" alt="">{{header.googleLink}}</li>
         </ul>
-        <i class="fas fa-bars"></i>
+        <div class="hamburger_wrap" @click="menuToggle">
+          <i class="fas fa-bars"  ></i>
+        </div>
       </nav>
+      <div class="hamburger_dropdown" v-if="dropdown">
+        <ul>
+          <li v-for="link in header.links">{{link}}</li>
+        </ul>
+      </div>
     </header>
 
 

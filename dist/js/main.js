@@ -10,6 +10,7 @@
 var app = new Vue({
   el: '#app',
   data: {
+    dropdown: false,
     googleLogo: 'dist/img/google-logo.svg',
     slackLogo: 'dist/img/slack-logo.svg',
     // HEADER DATA
@@ -106,6 +107,11 @@ var app = new Vue({
         title: 'from the blog',
         links: ['lorem', 'lorem', 'lorem', 'lorem', 'lorem', 'lorem', 'lorem', 'lorem', 'lorem']
       }]
+    }
+  },
+  methods: {
+    menuToggle: function menuToggle() {
+      this.dropdown = !this.dropdown;
     }
   }
 });

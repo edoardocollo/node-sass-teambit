@@ -1,6 +1,7 @@
 let app = new Vue({
   el:'#app',
   data:{
+    dropdown: false,
     googleLogo: 'dist/img/google-logo.svg',
     slackLogo:'dist/img/slack-logo.svg',
     // HEADER DATA
@@ -136,5 +137,10 @@ let app = new Vue({
         },
       ],
     },
+  },
+  methods:{
+    menuToggle: function(){
+      this.dropdown = !this.dropdown;
+    }
   },
 });

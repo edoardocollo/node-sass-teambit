@@ -1,0 +1,17 @@
+@media all and (max-width: 550px) {
+  #jumbotron {
+    padding: 60px 60px;
+  };
+  #orange_section{
+    padding: 60px 60px;
+  };
+  #feedback_section {
+    padding: 60px 60px;
+  };
+  footer {
+    padding: 60px 60px;
+    .footer_right {
+      justify-content: flex-start;
+    };
+  };
+}

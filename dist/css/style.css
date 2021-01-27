@@ -85,6 +85,8 @@ header .hamburger_dropdown li {
   padding: 60px 115px;
 }
 #jumbotron .left {
+  display: flex;
+  flex-direction: column;
   width: 50%;
 }
 #jumbotron .left h1 {
@@ -340,6 +342,7 @@ footer .footer_right .column ul {
   #jumbotron .left {
     width: 100%;
     text-align: center;
+    align-items: center;
   }
   #jumbotron .right {
     width: 100%;

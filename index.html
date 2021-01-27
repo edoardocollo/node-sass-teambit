@@ -43,9 +43,12 @@
       <div class="left">
         <h1>{{jumbotron.title}}</h1>
         <p>{{jumbotron.text}}</p>
-        <a href=""><img :src="googleLogo" alt="">{{jumbotron.links[0]}}</a>
-        or
-        <a href=""><img :src="slackLogo" alt="">{{jumbotron.links[1]}}</a><br>
+        <div class="link_wrap">
+
+          <a href=""><img :src="googleLogo" alt="">{{jumbotron.links[0]}}</a>
+          or
+          <a href=""><img :src="slackLogo" alt="">{{jumbotron.links[1]}}</a><br>
+        </div>
         <a href="">{{jumbotron.links[2]}}<i class="fas fa-arrow-right"></i></a>
       </div>
       <div class="right">

@@ -30,6 +30,12 @@ nav {
   align-items: center;
   margin: 0 115px;
 }
+nav .fa-bars {
+  display: none;
+  font-size: 40px;
+  margin-right: 15px;
+  color: #58402c;
+}
 nav img {
   height: 25px;
 }
@@ -303,6 +309,9 @@ footer .footer_right .column ul {
   }
   header nav ul {
     display: none;
+  }
+  header nav .fa-bars {
+    display: block;
   }
 
   #jumbotron {

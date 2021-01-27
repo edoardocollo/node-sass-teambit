@@ -5,6 +5,12 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: $defaultMargin;
+  .fa-bars{
+    display: none;
+    font-size:40px;
+    margin-right: 15px;
+    color: $defaultTextColor;
+  };
   img {
     height: 25px;
   };

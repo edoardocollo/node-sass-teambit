@@ -2,15 +2,24 @@
 ////////////////////
 #jumbotron {
   display: flex;
-  margin: $defaultMargin;
+  margin: $defaultSectionMargin;
   .left{
     width: 50%;
     h1 {
-      font-weight: 500;
-      font-size: 70px;
+      font-weight: bold;
+      font-size: 45px;
+      line-height: 60px;
     };
     p {
-      font-size: 25px;
+      font-size: 18px;
+      line-height: 30px;
+      margin-bottom: 30px;
+    };
+    a {
+      @include blueButton;
+    };
+    a:last-child {
+      @include arrowButton;
     };
   };
   .right{

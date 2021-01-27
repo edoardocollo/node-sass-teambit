@@ -1,0 +1,29 @@
+@mixin blueButton {
+  display: inline-block;
+  line-height: 32px;
+  align-items: center;
+  width: 150px;
+  font-size: 12px;
+  padding: 0 10px;
+  background-color: $defaultBlue;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  img{
+    height: 17px;
+  };
+};
+
+@mixin arrowButton {
+  font-weight: normal;
+  width: 200px;
+  background-color: rgba(0,0,0,0);
+  color: $defaultTextColor;
+  margin-bottom: 0;
+  .fa-arrow-right{
+    margin-left: 10px;
+  };
+};

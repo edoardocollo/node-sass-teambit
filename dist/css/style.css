@@ -48,17 +48,48 @@ nav ul li:last-child img {
 
 #jumbotron {
   display: flex;
-  margin: 0 115px;
+  margin: 60px 115px;
 }
 #jumbotron .left {
   width: 50%;
 }
 #jumbotron .left h1 {
-  font-weight: 500;
-  font-size: 70px;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 60px;
 }
 #jumbotron .left p {
-  font-size: 25px;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+#jumbotron .left a {
+  display: inline-block;
+  line-height: 32px;
+  align-items: center;
+  width: 150px;
+  font-size: 12px;
+  padding: 0 10px;
+  background-color: #2c4792;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+#jumbotron .left a img {
+  height: 17px;
+}
+#jumbotron .left a:last-child {
+  font-weight: normal;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #58402c;
+  margin-bottom: 0;
+}
+#jumbotron .left a:last-child .fa-arrow-right {
+  margin-left: 10px;
 }
 #jumbotron .right {
   width: 50%;

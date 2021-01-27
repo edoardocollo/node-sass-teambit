@@ -10,13 +10,14 @@
 var app = new Vue({
   el: '#app',
   data: {
+    googleLogo: 'dist/img/google-logo.svg',
+    slackLogo: 'dist/img/slack-logo.svg',
     // HEADER DATA
     /////////////////
     header: {
       logo: 'dist/img/logo.svg',
       links: ['solutions', 'pricing', 'blog', 'signe in'],
-      googleLink: 'Sign up',
-      googleLogo: 'dist/img/google-logo.svg'
+      googleLink: 'Sign up'
     },
     // JUMBOTRON DATA
     /////////////////

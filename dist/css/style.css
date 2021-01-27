@@ -81,7 +81,7 @@ nav ul li:last-child img {
   text-transform: capitalize;
   font-weight: bold;
   border-radius: 8px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 #jumbotron .left a img {
   height: 17px;
@@ -131,6 +131,9 @@ nav ul li:last-child img {
 }
 #orange_section .orange_wrap ul li img {
   height: 100px;
+}
+#orange_section .orange_wrap ul li p {
+  font-size: 15px;
 }
 #orange_section .orange_wrap img {
   margin: 60px 0;
@@ -196,6 +199,7 @@ nav ul li:last-child img {
 
 #feedback_section {
   background: #ffe7d2;
+  padding: 60px 115px;
 }
 #feedback_section .feedback_wrap {
   width: 55%;
@@ -203,11 +207,85 @@ nav ul li:last-child img {
   text-align: center;
 }
 #feedback_section .feedback_wrap p {
+  font-size: 15px;
+  position: relative;
+  margin: 60px 0;
+  background-color: #fff;
+  padding: 20px;
   text-align: left;
-  border: 1px solid blue;
+  border: 2px solid #2c4792;
   border-radius: 10px;
+}
+#feedback_section .feedback_wrap p .fa-quote-left {
+  font-size: 22px;
+  position: absolute;
+  color: #2c4792;
+  top: -10px;
+  left: 0;
+}
+#feedback_section .feedback_wrap p img {
+  height: 50px;
+  margin: 10px;
+}
+#feedback_section .feedback_wrap p span {
+  display: flex;
+}
+#feedback_section .feedback_wrap p span span {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+}
+#feedback_section .feedback_wrap > a {
+  display: inline-block;
+  line-height: 32px;
+  align-items: center;
+  width: 150px;
+  font-size: 12px;
+  padding: 0 10px;
+  background-color: #2c4792;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+#feedback_section .feedback_wrap > a img {
+  height: 17px;
+}
+#feedback_section .feedback_wrap a:last-child {
+  font-weight: normal;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #58402c;
+  margin-bottom: 0;
+}
+#feedback_section .feedback_wrap a:last-child .fa-arrow-right {
+  margin-left: 10px;
 }
 
 footer {
-  margin: 0 115px;
+  display: flex;
+  padding: 60px 115px;
+}
+footer .footer_left {
+  width: 33%;
+}
+footer .footer_left img {
+  float: left;
+}
+footer .footer_right {
+  width: 66%;
+  display: flex;
+}
+footer .footer_right .column {
+  width: 25%;
+}
+footer .footer_right .column h3 {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+footer .footer_right .column ul {
+  list-style: none;
 }

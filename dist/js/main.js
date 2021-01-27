@@ -86,7 +86,7 @@ var app = new Vue({
     },
     footer: {
       left: {
-        logo: '',
+        logo: 'dist/img/logo-small.svg',
         linkText: 'Teambit',
         text: 'helps team create high performing cultures by making feedback a daily habit.'
       },

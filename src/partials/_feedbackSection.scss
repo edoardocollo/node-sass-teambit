@@ -3,14 +3,46 @@
 
 #feedback_section {
   background: $bgc_orange;
+  padding: $defaultSectionPadding;
   .feedback_wrap{
     width: 55%;
     margin: auto;
     text-align: center;
     p {
+      font-size: 15px;
+      position: relative;
+      margin: 60px 0;
+      background-color: #fff;
+      padding: 20px;
       text-align: left;
-      border: 1px solid blue;
+      border: 2px solid $defaultBlue;
       border-radius: 10px;
+      .fa-quote-left {
+        font-size:22px;
+        position: absolute;
+        color: $defaultBlue;
+        top: -10px;
+        left: 0;
+      };
+      img {
+        height: 50px;
+        margin: 10px;
+      };
+      span {
+        display: flex;
+        span{
+          padding-top: 20px;
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+        };
+      };
+    };
+    & > a{
+      @include blueButton;
+    };
+    a:last-child{
+      @include arrowButton;
     };
   };
 }

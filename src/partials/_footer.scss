@@ -2,5 +2,27 @@
 /////////////
 
 footer{
-  margin: $defaultMargin;
+  display: flex;
+
+  padding: $defaultSectionPadding;
+  .footer_left {
+    width: 33%;
+    img{
+      float: left;
+    };
+  };
+  .footer_right {
+    width: 66%;
+    display: flex;
+    .column{
+      width: 25%;
+      h3 {
+        margin-bottom: 30px;
+        text-transform: capitalize;
+      };
+      ul {
+        list-style: none;
+      };
+    };
+  };
 }

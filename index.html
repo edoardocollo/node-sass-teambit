@@ -80,15 +80,29 @@
   <div id="feedback_section">
     <div class="feedback_wrap">
       <h2>{{feedbackSection.title}}</h2>
-      <p>{{feedbackSection.text}}</p>
-      <a href="#" v-for="link in feedbackSection.links">{{link}}</a>
+      <p>
+        {{feedbackSection.text}}
+        <i class="fas fa-quote-left"></i> <br>
+        <span>
+          <img src="dist/img/alex.png" alt="">
+          <img src="dist/img/bohdan.png" alt="">
+          <span>
+            <a href="#">Alex e Bohdan</a><br>
+            Co-Founders at Teambit
+          </span>
+        </span>
+      </p>
+      <a href=""><img :src="googleLogo" alt="">{{jumbotron.links[0]}}</a>
+      or
+      <a href=""><img :src="slackLogo" alt="">{{jumbotron.links[1]}}</a><br>
+      <a href="">{{jumbotron.links[2]}}<i class="fas fa-arrow-right"></i></a>
     </div>
   </div>
 
   <footer>
     <div class="footer_left">
       <img :src="footer.left.logo" alt="">
-      <p>
+      <p class="small_text">
         <a href="#">{{footer.left.linkText}}</a>
         {{footer.left.text}}
       </p>

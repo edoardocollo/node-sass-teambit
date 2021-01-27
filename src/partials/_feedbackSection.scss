@@ -1,0 +1,16 @@
+// FEEDBACK SECTION
+////////////////////////
+
+#feedback_section {
+  background: $bgc_orange;
+  .feedback_wrap{
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    p {
+      text-align: left;
+      border: 1px solid blue;
+      border-radius: 10px;
+    };
+  };
+}

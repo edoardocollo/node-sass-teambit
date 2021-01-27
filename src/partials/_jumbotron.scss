@@ -1,0 +1,21 @@
+// JUMBOTRON
+////////////////////
+#jumbotron {
+  display: flex;
+  .left{
+    width: 50%;
+    h1 {
+      font-weight: 500;
+      font-size: 70px;
+    };
+    p {
+      font-size: 25px;
+    };
+  };
+  .right{
+    width: 50%;
+    img {
+      width: 100%;
+    };
+  };
+};

@@ -1,0 +1,17 @@
+// ORANGE SECTION
+/////////////////////
+#orange_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  background-color: $bgc_orange;
+  ul{
+    display: flex;
+    justify-content: space-around;
+  }
+};
+.orange_wrap {
+  width: 100%;
+}

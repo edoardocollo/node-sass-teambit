@@ -1,3 +1,14 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -15,8 +26,83 @@ nav li:last-child {
   border-radius: 8px;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+#jumbotron {
+  display: flex;
+}
+#jumbotron .left {
+  width: 50%;
+}
+#jumbotron .left h1 {
+  font-weight: 500;
+  font-size: 70px;
+}
+#jumbotron .left p {
+  font-size: 25px;
+}
+#jumbotron .right {
+  width: 50%;
+}
+#jumbotron .right img {
+  width: 100%;
+}
+
+#orange_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  background-color: #ffe7d2;
+}
+#orange_section ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.orange_wrap {
+  width: 100%;
+}
+
+#whiteSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#whiteSection .whiteCard {
+  width: 100%;
+  display: flex;
+}
+#whiteSection .whiteCard .img_wrap {
+  width: 50%;
+}
+#whiteSection .whiteCard .img_wrap img {
+  width: 100%;
+}
+#whiteSection .whiteCard .content_wrap {
+  width: 35%;
+}
+#whiteSection .whiteCard .content_wrap img {
+  width: 100%;
+}
+
+#whiteSection .whiteCard:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+#whiteSection .whiteCard:nth-child(4) {
+  flex-direction: row-reverse;
+}
+
+#feedback_section {
+  background: #ffe7d2;
+}
+#feedback_section .feedback_wrap {
+  width: 55%;
+  margin: auto;
+  text-align: center;
+}
+#feedback_section .feedback_wrap p {
+  text-align: left;
+  border: 1px solid blue;
+  border-radius: 10px;
 }

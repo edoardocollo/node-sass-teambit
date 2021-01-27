@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>node-sass-teambit</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="dist/css/style.css">
   <script defer src="/node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
 </head>
@@ -42,6 +44,8 @@
       </div>
     </div>
 
+
+
   <div id="orange_section">
     <div class="orange_wrap" v-for="section in orangeSection">
       <h2>
@@ -72,9 +76,11 @@
   </div>
 
   <div id="feedback_section">
-    <h2>{{feedbackSection.title}}</h2>
-    <p>{{feedbackSection.text}}</p>
-    <a href="#" v-for="link in feedbackSection.links">{{link}}</a>
+    <div class="feedback_wrap">
+      <h2>{{feedbackSection.title}}</h2>
+      <p>{{feedbackSection.text}}</p>
+      <a href="#" v-for="link in feedbackSection.links">{{link}}</a>
+    </div>
   </div>
 
   <footer>

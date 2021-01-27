@@ -2,7 +2,7 @@
 ////////////////////
 #jumbotron {
   display: flex;
-  margin: $defaultSectionMargin;
+  padding: $defaultSectionPadding;
   .left{
     width: 50%;
     h1 {

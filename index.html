@@ -71,8 +71,10 @@
       <div class="content_wrap">
         <h2>{{card.title}}</h2>
         <p>{{card.text}}</p>
-        <a href="#">{{card.linkText}}<i class="fas fa-arrow-right"></i></a>
-        <img :src="card.img[0]" alt="">
+        <div class="img_link_wrap">          
+          <a href="#">{{card.linkText}}<i class="fas fa-arrow-right"></i></a>
+          <img :src="card.img[0]" alt="">
+        </div>
       </div>
     </div>
   </div>
@@ -87,7 +89,7 @@
           <img src="dist/img/alex.png" alt="">
           <img src="dist/img/bohdan.png" alt="">
           <span>
-            <a href="#">Alex e Bohdan</a><br>
+            <a href="#">Alex e Bohdan</a>
             Co-Founders at Teambit
           </span>
         </span>

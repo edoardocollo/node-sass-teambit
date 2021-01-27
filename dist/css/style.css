@@ -9,25 +9,46 @@ body {
   box-sizing: border-box;
 }
 
+body {
+  color: #58402c;
+}
+
 nav {
+  height: 70px;
+  border-bottom: 2px solid #58402c;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 0 115px;
+}
+nav img {
+  height: 25px;
 }
 nav ul {
   display: flex;
   list-style: none;
 }
 nav ul li {
-  padding: 15px;
+  font-weight: bold;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  margin: 15px;
 }
-
-nav li:last-child {
-  border: 1px solid black;
+nav ul li:last-child {
+  color: #2c4792;
+  line-height: 40px;
+  padding: 0 12px;
+  border: 2px solid #2c4792;
   border-radius: 8px;
+}
+nav ul li:last-child img {
+  margin-right: 5px;
 }
 
 #jumbotron {
   display: flex;
+  margin: 0 115px;
 }
 #jumbotron .left {
   width: 50%;
@@ -61,6 +82,7 @@ nav li:last-child {
 
 .orange_wrap {
   width: 100%;
+  margin: 0 115px;
 }
 
 #whiteSection {
@@ -105,4 +127,8 @@ nav li:last-child {
   text-align: left;
   border: 1px solid blue;
   border-radius: 10px;
+}
+
+footer {
+  margin: 0 115px;
 }

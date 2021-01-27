@@ -2,6 +2,7 @@
 ////////////////////
 #jumbotron {
   display: flex;
+  margin: $defaultMargin;
   .left{
     width: 50%;
     h1 {

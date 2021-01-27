@@ -12,6 +12,7 @@ let app = new Vue({
         'signe in',
       ],
       googleLink: 'Sign up',
+      googleLogo: 'dist/img/google-logo.svg',
     },
     // JUMBOTRON DATA
     /////////////////

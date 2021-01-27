@@ -24,7 +24,7 @@
           <li v-for="link in header.links">
             {{link}}
           </li>
-          <li>{{header.googleLink}}</li>
+          <li> <img :src="header.googleLogo" alt="">{{header.googleLink}}</li>
         </ul>
       </nav>
     </header>
@@ -58,6 +58,7 @@
         </li>
       </ul>
       <img :src="section.img" alt="">
+      <h2 v-if="section.text">{{section.text}}</h2>
     </div>
   </div>
 

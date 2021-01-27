@@ -1,15 +1,36 @@
 nav {
+  height: 70px;
+  border-bottom: 2px solid $defaultTextColor;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: $defaultMargin;
+  img {
+    height: 25px;
+  };
   ul {
     display: flex;
     list-style: none;
     li {
-      padding: 15px;
-    }
-  }
+      font-weight: bold;
+      text-transform: capitalize;
+      display: flex;
+      align-items: center;
+      margin: 15px;
+    };
+    li:last-child {
+      color: $defaultBlue;
+      line-height: 40px;
+      padding: 0 12px;
+      border: 2px solid $defaultBlue;
+      border-radius: 8px;
+      img {
+        margin-right: 5px;
+      };
+    };
+  };
 }
-nav li:last-child {
-  border: 1px solid black;
-  border-radius: 8px;
-}
+// nav li:last-child {
+//   border: 1px solid black;
+//   border-radius: 8px;
+// }
